@@ -1,7 +1,6 @@
-
 [build]
 dockerfile = "Dockerfile"
 
 [deploy]
-healthcheckPath = "/"
+healthcheckPath = "/api/tags"
 healthcheckTimeout = 600
